@@ -13,7 +13,7 @@ dotnet tool install image64 -g
 ## Usage
 
 ```
-dotnet image64 {file-path-to-image}
+image64 {file-path-to-image}
 ```
 
 Supported extensions:
