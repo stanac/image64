@@ -1,14 +1,25 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackAsTool>true</PackAsTool>
+		<ToolCommandName>image64</ToolCommandName>
+		<PackageOutputPath>./nupkg</PackageOutputPath>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="TextCopy" Version="6.1.0" />
-  </ItemGroup>
+	<PropertyGroup>
+		<PackageLicenseExpression>Unlicense</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="TextCopy" Version="6.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="nupkg\" />
+	</ItemGroup>
 
 </Project>
