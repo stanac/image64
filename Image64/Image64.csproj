@@ -8,7 +8,7 @@
 		<PackAsTool>true</PackAsTool>
 		<ToolCommandName>image64</ToolCommandName>
 		<PackageOutputPath>./nupkg</PackageOutputPath>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<Authors>stanac</Authors>
 		<PackageProjectUrl>https://github.com/stanac/image64</PackageProjectUrl>
 		<Description>

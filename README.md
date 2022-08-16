@@ -25,7 +25,7 @@ Supported extensions:
 Example:
 
 ```
-d:\>dotnet image64 image.png
+d:\>image64 image.png
 ---------------
 data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAADQAAAArAQMAAAANNjnmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURVlNW/3+/camVroAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABqSURBVCjPY/gPBh/Ipn///zkfG/3LxnKOPZD+OXPmzPkg8ds3Z98H0TckIfTtnxD65k+I/B1JsHpK3QMkfv7FQn/e3c55EGSPtbHlTBAtXF25F+S+cAj9B0YfN64Eyf953155lFx3/P8AADB3D1nX2bYDAAAAAElFTkSuQmCC
 ---------------
